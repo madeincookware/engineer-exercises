@@ -26,5 +26,6 @@ export type Matrix = number[][];
  */
 export const generateMatrix = (input: string): Matrix => {
   // Implementation goes here
+  console.log(input)
   return [[1]];
 };
